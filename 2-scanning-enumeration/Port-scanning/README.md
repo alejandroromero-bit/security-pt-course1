@@ -9,6 +9,9 @@ conclusiones erróneas.
 `nmap` · `masscan` (muy rápido) · `rustscan` · `netcat` · `unicornscan`
 
 ## 🧪 Ejercicios básicos (individuales)
+> 💻 **Sin VM:** usa [nmap.online](https://nmap.online/) o
+> [Pentest-Tools Port Scanner](https://pentest-tools.com/) contra `scanme.nmap.org`.
+> Ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md).
 1. Escanea los 1000 puertos más comunes de `scanme.nmap.org` y anota los abiertos.
 2. Compara un escaneo TCP (`-sT`) con uno UDP (`-sU`) y explica por qué el UDP es
    más lento y menos fiable.

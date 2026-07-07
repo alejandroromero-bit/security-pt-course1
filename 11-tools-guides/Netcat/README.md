@@ -10,6 +10,9 @@ banner grabbing y —en laboratorio— establecer shells. Su versión moderna es
 
 ## 🧪 Ejercicios básicos (individuales)
 > Solo en tu propia máquina o laboratorio.
+> 💻 **Sin VM:** practica `nc` en un terminal Linux del navegador como
+> [Killercoda](https://killercoda.com/) o [Webminal](https://webminal.org/).
+> Ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md).
 1. Chat simple entre dos terminales: listener `nc -lvnp 4444` + cliente `nc <ip> 4444`.
 2. Transfiere un archivo con `nc` (listener con `>` y cliente con `<`).
 3. Banner grabbing: `nc scanme.nmap.org 22` y observa la respuesta.

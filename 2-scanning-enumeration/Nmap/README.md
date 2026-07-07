@@ -11,6 +11,9 @@ Dominar Nmap es imprescindible: casi todo pentest de red empieza aquí.
 
 ## 🧪 Ejercicios básicos (individuales)
 > Objetivo legal de práctica: **`scanme.nmap.org`**.
+> 💻 **Sin VM:** lanza estos escaneos desde [nmap.online](https://nmap.online/) o
+> [HackerTarget](https://hackertarget.com/) contra `scanme.nmap.org`.
+> Más opciones en [`ONLINE-LABS.md`](../../ONLINE-LABS.md).
 1. Descubrimiento de hosts: `nmap -sn scanme.nmap.org`.
 2. Servicios y versiones: `nmap -sV scanme.nmap.org`.
 3. Enumeración con scripts: `nmap -sC scanme.nmap.org` (scripts "default").

@@ -54,6 +54,10 @@ contenido técnico.
 
 ## 🧪 Laboratorios recomendados (legales y gratuitos)
 
+> 💻 **¿Sin ganas de montar una máquina virtual?** Consulta
+> [`ONLINE-LABS.md`](ONLINE-LABS.md): herramientas y labs que corren **en el
+> navegador** (Nmap, Nikto, terminales Linux, apps vulnerables…).
+
 - [TryHackMe](https://tryhackme.com/) — rutas guiadas para principiantes
 - [Hack The Box](https://www.hackthebox.com/) y [HTB Academy](https://academy.hackthebox.com/)
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security) — gratis
