@@ -17,14 +17,21 @@ banner grabbing y —en laboratorio— establecer shells. Su versión moderna es
 2. Transfiere un archivo con `nc` (listener con `>` y cliente con `<`).
 3. Banner grabbing: `nc scanme.nmap.org 22` y observa la respuesta.
 
-## 👥 Tarea colaborativa en equipo
-El grupo debe, en una rama:
-1. Crear una tabla de "recetas" de netcat (transferencia, listener, escaneo).
-2. Comparar `nc` vs `ncat` vs `socat`.
-3. Enviar PR (ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)).
+## 👥 Reto colaborativo activo — Utilidades en el día a día
 
-## ✍️ Aportes del equipo (rellenar)
-> _Añade recetas y comandos. Firma con tu usuario._
-| Objetivo | Comando | Notas |
-|---|---|---|
-|  |  |  |
+> *"Nmap, Netcat, Nikto y otras utilidades forman parte del día a día en pruebas
+> de seguridad."* → Reto actual del curso. Detalles en
+> [`ASSIGNMENT-01.md`](../../ASSIGNMENT-01.md).
+
+Haz los ejercicios de arriba **en línea** (ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md)),
+en tu propia rama, y documenta tu trabajo en las **tres partes**. Al terminar,
+abre un Pull Request (ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)). Firma con tu usuario.
+
+### 1. 🎯 Ejercicio
+_Terminal/herramienta online usada, objetivo y comandos/pasos._
+
+### 2. 📈 Progreso
+_Qué fuiste logrando, obstáculos y cómo los resolviste, salidas o capturas clave._
+
+### 3. 📝 Reporte
+_Resultados/hallazgos, interpretación, conclusión y próximos pasos._

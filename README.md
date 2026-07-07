@@ -1,4 +1,4 @@
-# 🛡️ Security PDFs Library — Curso de Ethical Hacking para principiantes
+# 🛡️ Security Pentesting Tools - Mentoría.
 
 Repositorio-curso para introducir a la comunidad al **hacking ético** de forma
 estructurada, práctica y legal. Está organizado por **fases de un pentest**, con
@@ -43,10 +43,17 @@ No se asume experiencia previa más allá de manejo básico de Linux y redes.
 
 ## 👥 Aprendizaje colaborativo (estaciones)
 
-Cada módulo tiene **subcarpetas-estación** (Nmap, OSINT, Burp-Suite, ...) con
-explicación, herramientas y ejercicios. Cada estación incluye una sección
-**✍️ Aportes del equipo** que los alumnos **completan** trabajando en equipo y
-practicando el flujo real de GitHub (rama → commit → Pull Request).
+Cada módulo tiene **subcarpetas-estación** con explicación, herramientas y
+ejercicios. Los alumnos las **completan** trabajando en equipo y practicando el
+flujo real de GitHub (rama → commit → Pull Request).
+
+> 🎯 **Reto actual → [`ASSIGNMENT-01.md`](ASSIGNMENT-01.md):** *"Nmap, Netcat,
+> Nikto y otras utilidades forman parte del día a día en pruebas de seguridad."*
+> Cada equipo practica una utilidad **en línea** (sin VM) y documenta su
+> **Ejercicio → Progreso → Reporte** en la estación correspondiente.
+> Estaciones activas ahora: **[Nmap](2-scanning-enumeration/Nmap/) ·
+> [Netcat](11-tools-guides/Netcat/) · [Nikto](3-vulnerability-assessment/Nikto/)**.
+> El resto de estaciones se activarán más adelante.
 
 👉 El flujo paso a paso está en [`CONTRIBUTING.md`](CONTRIBUTING.md). Es ideal para
 que los participantes **se conozcan, colaboren y aprendan Git** a la vez que el

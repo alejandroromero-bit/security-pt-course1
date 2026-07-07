@@ -18,14 +18,21 @@ Dominar Nmap es imprescindible: casi todo pentest de red empieza aquí.
 2. Servicios y versiones: `nmap -sV scanme.nmap.org`.
 3. Enumeración con scripts: `nmap -sC scanme.nmap.org` (scripts "default").
 
-## 👥 Tarea colaborativa en equipo
-El grupo de Nmap debe, en una rama:
-1. Construir una **tabla de flags** esenciales con su descripción.
-2. Añadir 2 comandos NSE útiles y para qué sirven.
-3. Enviar PR (ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)).
+## 👥 Reto colaborativo activo — Utilidades en el día a día
 
-## ✍️ Aportes del equipo (rellenar)
-> _Añade flags, comandos NSE y trucos. Firma con tu usuario._
-| Flag / comando | Qué hace | Cuándo usarlo |
-|---|---|---|
-|  |  |  |
+> *"Nmap, Netcat, Nikto y otras utilidades forman parte del día a día en pruebas
+> de seguridad."* → Reto actual del curso. Detalles en
+> [`ASSIGNMENT-01.md`](../../ASSIGNMENT-01.md).
+
+Haz los ejercicios de arriba **en línea** (ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md)),
+en tu propia rama, y documenta tu trabajo en las **tres partes**. Al terminar,
+abre un Pull Request (ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)). Firma con tu usuario.
+
+### 1. 🎯 Ejercicio
+_Herramienta online usada, objetivo (p. ej. `scanme.nmap.org`) y comandos/pasos._
+
+### 2. 📈 Progreso
+_Qué fuiste logrando, obstáculos y cómo los resolviste, salidas o capturas clave._
+
+### 3. 📝 Reporte
+_Resultados/hallazgos, interpretación, conclusión y próximos pasos._
