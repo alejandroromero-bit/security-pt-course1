@@ -9,6 +9,20 @@ aprende.
 > 🎯 **Regla de oro:** todo lo que publiques aquí debe ser **contenido propio** o
 > enlaces a fuentes oficiales. Nunca subas PDFs o textos con copyright de terceros.
 
+## ✅ Requisitos previos (hazlo una sola vez)
+
+1. **Crea tu cuenta gratuita** en [github.com](https://github.com/) y elige un
+   usuario (lo usarás para firmar tus aportes).
+2. **Envía tu usuario de GitHub al instructor** para que te agregue como
+   colaborador del repositorio.
+3. **Acepta la invitación:** te llegará por correo y también en
+   `github.com/notifications`. Hasta que la aceptes, no podrás subir ramas.
+4. Instala [Git](https://git-scm.com/downloads) en tu equipo.
+
+> 👤 **Para el instructor:** agrega a cada alumno en
+> **Settings → Collaborators and teams → Add people** con su usuario de GitHub.
+> En repos públicos es gratis e ilimitado.
+
 ## 🧭 Flujo de trabajo (paso a paso)
 
 ### 1. Clona el repositorio
