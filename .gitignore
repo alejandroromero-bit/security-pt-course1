@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Material del facilitador (solo local)
+FACILITATOR-SESSION-01.md

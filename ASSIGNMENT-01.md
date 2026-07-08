@@ -7,9 +7,6 @@ Este es el **reto actual** del curso. El objetivo es que practiques estas
 herramientas **en línea (sin montar máquina virtual)** y documentes tu trabajo
 como lo haría un profesional, a la vez que aprendes el flujo de GitHub.
 
-> 👨‍🏫 **¿Eres el instructor?** La guía de la dinámica (30 min, 3 grupos, cronograma
-> y mini-briefs) está en [`FACILITATOR-SESSION-01.md`](FACILITATOR-SESSION-01.md).
-
 ## 🧩 Estaciones activas ahora
 Elige (o se te asigna) **una** de estas estaciones:
 - [Nmap](2-scanning-enumeration/Nmap/) — escaneo de puertos y servicios
