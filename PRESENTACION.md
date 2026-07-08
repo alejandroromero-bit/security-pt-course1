@@ -1,7 +1,5 @@
 # 🧰 Herramientas Esenciales para Pentesting y Ciberseguridad
 
-> **Nmap, Netcat, Nikto y más** · Instructor: Bruno · Duración: ~90 min
-> Presentación en **Mermaid** — se lee directo en GitHub, sin diapositivas. 🚀
 
 **Índice:** [Legal](#-1--disclaimer-legal-y-ético) ·
 [Ciclo](#-2--el-ciclo-de-pentesting) · [Recon](#-3--reconocimiento-osint-y-dns) ·
@@ -9,7 +7,8 @@
 [Nikto](#-6--nikto-escáner-web) · [Avanzadas](#-7--herramientas-avanzadas) ·
 [Legales](#-8--documentos-legales) · [Reporte](#-9--reporte-profesional) ·
 [Labs](#-10--labs-legales-para-practicar) · [Ética](#-11--prácticas-éticas) ·
-[Claves](#-12--puntos-clave) · [Recursos](#-13--recursos)
+[Claves](#-12--puntos-clave) · [Recursos](#-13--recursos) ·
+[Casos reales](#-14--casos-reales-conocimiento-general)
 
 ---
 
@@ -247,6 +246,38 @@ flowchart LR
 [cve.mitre.org](https://cve.mitre.org/)
 🔗 Comunidades: r/cybersecurity · capítulos locales de OWASP · Black Hat / DEF CON
 💻 **Next steps:** practica en labs → certifícate (CEH → OSCP) → construye portfolio
+
+---
+
+## 🌍 14 · Casos reales (conocimiento general)
+
+Incidentes **públicos y bien documentados**. El enfoque aquí es **defensivo**: el
+mismo reconocimiento y escaneo que un pentester hace **con autorización** revela
+justo las exposiciones que estos ataques aprovecharon. Estudiarlos enseña **qué
+arreglar**, no cómo atacar.
+
+| Caso (año) | Qué pasó (alto nivel) | Exposición que se aprovechó | 🛡️ Lección defensiva |
+|---|---|---|---|
+| **WannaCry** (2017) | Ransomware-gusano que se propagó solo por miles de equipos | Servicio **SMB (puerto 445)** sin parchear expuesto en red | Parchear a tiempo, deshabilitar SMBv1, **segmentar** la red |
+| **Equifax** (2017) | Brecha de ~147M de registros personales | Componente **web sin parchear** (framework desactualizado) | Inventario de software + **gestión de parches** en apps web |
+| **Mirai** (2016) | Botnet de dispositivos IoT usada para ataques masivos | **Telnet (23)** abierto con **credenciales por defecto** | Cambiar credenciales por defecto, **cerrar Telnet**, actualizar IoT |
+| **Log4Shell** (2021) | Búsqueda masiva en internet de sistemas vulnerables | Librería **Log4j** vulnerable en apps expuestas | Parcheo urgente, **SBOM** (inventario de dependencias), WAF |
+| **Colonial Pipeline** (2021) | Interrupción de infraestructura crítica | Cuenta de **acceso remoto (VPN)** con contraseña filtrada y **sin MFA** | **MFA** en todo acceso remoto, rotación de credenciales, monitoreo |
+
+### Cómo se conecta con lo que vimos hoy
+
+```mermaid
+flowchart LR
+    S["Escaneo / Enumeración<br/>(Nmap, Netcat)"] --> P1["Puertos y servicios expuestos<br/>SMB 445 · Telnet 23"] --> L1["🛡️ Parchear · cerrar · segmentar"]
+    W["Búsqueda de vulns web<br/>(Nikto)"] --> P2["Componentes web sin parchear<br/>frameworks · Log4j"] --> L2["🛡️ Inventario + parcheo (SBOM)"]
+    C["Contraseñas<br/>(John · Hashcat)"] --> P3["Credenciales débiles o filtradas<br/>sin MFA"] --> L3["🛡️ MFA + rotación de credenciales"]
+    classDef def fill:#1a7f37,stroke:#116329,color:#ffffff;
+    class L1,L2,L3 def
+```
+
+> 💡 **La idea clave:** la herramienta no es "buena" ni "mala". Un pentester ético
+> usa Nmap, Netcat o Nikto para **encontrar y cerrar** estas brechas **antes** que
+> un atacante. Ese es el trabajo. 🛡️
 
 ---
 
