@@ -54,6 +54,8 @@ flujo real de GitHub (rama → commit → Pull Request).
 > Estaciones activas ahora: **[Nmap](2-scanning-enumeration/Nmap/) ·
 > [Netcat](11-tools-guides/Netcat/) · [Nikto](3-vulnerability-assessment/Nikto/)**.
 > El resto de estaciones se activarán más adelante.
+> 👨‍🏫 Instructor: guía de la dinámica (30 min, 3 grupos) en
+> [`FACILITATOR-SESSION-01.md`](FACILITATOR-SESSION-01.md).
 
 👉 El flujo paso a paso está en [`CONTRIBUTING.md`](CONTRIBUTING.md). Es ideal para
 que los participantes **se conozcan, colaboren y aprendan Git** a la vez que el
