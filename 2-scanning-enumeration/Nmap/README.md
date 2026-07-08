@@ -24,9 +24,11 @@ Dominar Nmap es imprescindible: casi todo pentest de red empieza aquí.
 > de seguridad."* → Reto actual del curso. Detalles en
 > [`ASSIGNMENT-01.md`](../../ASSIGNMENT-01.md).
 
-Haz los ejercicios de arriba **en línea** (ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md)),
-en tu propia rama, y documenta tu trabajo en las **tres partes**. Al terminar,
-abre un Pull Request (ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)). Firma con tu usuario.
+Haz los ejercicios de arriba **en línea** (ver [`ONLINE-LABS.md`](../../ONLINE-LABS.md))
+y anota tu trabajo en las **tres partes**. 🌱 Esto **no se califica** — es para
+explorar y aprender. **No hace falta subir un PR ahora:** primero practica; cuando
+tengas acceso al repo puedes compartir tu trabajo con un Pull Request (opcional,
+ver [`CONTRIBUTING.md`](../../CONTRIBUTING.md)).
 
 ### 1. 🎯 Ejercicio
 _Herramienta online usada, objetivo (p. ej. `scanme.nmap.org`) y comandos/pasos._

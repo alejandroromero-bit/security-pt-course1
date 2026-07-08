@@ -6,7 +6,11 @@ Reporte** vía Pull Request. Cubre el [Reto #1](ASSIGNMENT-01.md).
 
 ## 🎯 Objetivo
 Que cada grupo use una utilidad real del día a día, la ejecute en el navegador y
-documente su trabajo colaborando en GitHub.
+anote su trabajo. Colaborar en GitHub es un **plus opcional**, no el objetivo.
+
+> 🌱 **Clima de la sesión:** es **exploración, no un examen**. **No se califica.**
+> Con principiantes, evita cualquier lenguaje de "evaluación": la meta es que
+> prueben, se equivoquen sin miedo y se diviertan. El PR puede esperar.
 
 ## 👥 Formación de grupos
 Divide la clase en **3 grupos**. Cada grupo toma una estación:
@@ -31,7 +35,7 @@ Divide la clase en **3 grupos**. Cada grupo toma una estación:
 |-----|-----------|
 | 0–5 | Formar grupos, abrir enlaces, repartir roles. Recordar la **regla ética** (solo objetivos autorizados). |
 | 5–20 | **Ejercicio en línea** (ver el mini-brief de cada grupo abajo). |
-| 20–27 | Escribir **Ejercicio / Progreso / Reporte** en su estación → `commit` → **Pull Request**. |
+| 20–27 | Anotar **Ejercicio / Progreso / Reporte** (en un borrador). El **PR es opcional** y puede hacerse después, cuando tengan acceso al repo. |
 | 27–30 | **Puesta en común:** el relator de cada grupo comparte 1 hallazgo (1 min c/u). |
 
 ## 🧭 Mini-briefs por grupo
@@ -56,19 +60,22 @@ Divide la clase en **3 grupos**. Cada grupo toma una estación:
    y `nc 127.0.0.1 4444` en la otra; envía texto entre ambas.
 4. Explica la diferencia entre listener y cliente.
 
-## 📝 Entregable de cada grupo
-En el `README.md` de su estación, completar las tres partes:
+## 📝 Qué anota cada grupo
+En un borrador (o en el `README.md` de su estación si ya tienen acceso), las tres partes:
 - **🎯 Ejercicio** — herramienta, objetivo y pasos.
 - **📈 Progreso** — obstáculos y cómo los resolvieron, salidas clave.
 - **📝 Reporte** — hallazgos, interpretación y conclusión.
 
-Un **PR por grupo** (rama `nmap-grupo-a`, `nikto-grupo-b`, `netcat-grupo-c`).
+> El **PR es opcional** y **no se califica**: si el grupo ya tiene acceso, puede
+> subirlo (rama `nmap-grupo-a`, `nikto-grupo-b`, `netcat-grupo-c`); si aún no, se
+> deja para después. Lo importante es que hayan practicado.
 
-## ✅ Checklist del instructor (antes de la sesión)
-- [ ] Alumnos agregados como **colaboradores** y con invitación aceptada.
-- [ ] `main` protegido (todo entra por PR).
+## ✅ Checklist del instructor
 - [ ] Verificar que los enlaces cargan desde la red del aula.
 - [ ] Recalcar en voz alta la **regla ética** (solo `scanme.nmap.org` / `testphp.vulnweb.com`).
+- [ ] Ir **agregando a los alumnos** como colaboradores *durante* la sesión mientras
+      ellos hacen el ejercicio — **no es requisito** para empezar.
+- [ ] (Opcional, para después) Proteger `main` cuando empiecen a llegar PRs.
 
 ## 🧯 Plan B (si un enlace falla)
 - nmap.online sin créditos → usar HackerTarget.
