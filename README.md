@@ -12,6 +12,9 @@ originales** para practicar en entornos autorizados.
 > fuente original** del autor (ver [`RESOURCES.md`](RESOURCES.md)). Enlazar es
 > legal y da crédito a quien lo creó.
 
+> 📊 **Presentación de la clase (en Mermaid, se ve aquí en GitHub):**
+> [`PRESENTACION.md`](PRESENTACION.md) — Nmap, Netcat, Nikto y el ciclo de pentesting.
+
 ## 🎯 A quién va dirigido
 
 A personas que **empiezan** en ciberseguridad ofensiva y quieren una ruta clara.
