@@ -34,6 +34,33 @@ No se asume experiencia previa más allá de manejo básico de Linux y redes.
 | 11 | [Herramientas y guías](11-tools-guides/) | Netcat, Linux/Windows |
 | 12 | [Misceláneo](12-miscellaneous/) | Frameworks de gobernanza y referencia |
 
+## 🗺️ Flujo de un pentest — ¿dónde estamos?
+
+Este diagrama muestra las fases de una prueba de penetración y **en qué punto
+estamos ahora en clase** (🔵), practicando con **Nmap**, **Nikto** y **Netcat**.
+
+```mermaid
+flowchart LR
+    A["1 · Reconocimiento<br/>OSINT · DNS"] --> B["2 · Escaneo y enumeración<br/>🔧 Nmap"]
+    B --> C["3 · Análisis de vulnerabilidades<br/>🔧 Nikto · Burp"]
+    C --> D["4 · Explotación<br/>Metasploit · payloads"]
+    D --> E["Post-explotación<br/>escalada · persistencia"]
+    E --> F["5 · Reporte y remediación"]
+    F -. nuevo ciclo .-> A
+
+    NC["🔧 Netcat<br/>utilidad transversal"]:::tool
+    NC -. banner grabbing .-> B
+    NC -. shells .-> D
+
+    classDef current fill:#1f6feb,stroke:#1158c7,color:#ffffff,stroke-width:2px;
+    classDef tool fill:#f5b301,stroke:#d99e00,color:#111111,stroke-width:1px;
+    class B,C current;
+```
+
+> 🔵 **Estamos aquí:** fases **2 y 3** del flujo. Las 3 herramientas de esta clase
+> son **Nmap** (escaneo), **Nikto** (análisis web) y **Netcat** (se usa en varias
+> fases), y las practicamos **en línea** → ver [`ASSIGNMENT-01.md`](ASSIGNMENT-01.md).
+
 ## 📚 Cómo usar este curso
 
 1. Sigue los módulos **en orden** — cada fase se apoya en la anterior.
